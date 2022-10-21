@@ -1,0 +1,87 @@
+@import url(./reset.css);
+
+/*Main Nav*/
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+body > nav li {
+    padding: 1em;
+}
+
+
+body > nav a li{
+    text-decoration: none;
+    color: #c0392b;
+
+}
+body > nav a:hover{
+    color:#27ae60 ;
+} 
+
+/* HEADER */
+body > header {
+	height: 300px;
+	background: url(./images/mailchimp-04X1Yp9hNH8-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	gap: 1cm;
+	color: #233;
+}
+body > header h1 {
+	font-size: 3.4cm;
+}
+
+body > header h2 {
+	font-size: 2.1cm;
+}
+
+button {
+	width: 150px;
+	height: 100px;
+	border: none;
+	border-radius: 5px;
+	background: #d35400;
+	color: aliceblue;
+}
+
+/* Main */
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	order: 2;
+}
+
+article {
+	width: 200px;
+	padding: 1cm;
+}
+
+article img {
+	width: 100px;
+}
+
+/*ASIDE*/
+aside {
+	width: 30%;
+	order: 1;
+}
+
+footer{
+	display: flex;
+	justify-content:
+	space-around;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 1cm;
+}
